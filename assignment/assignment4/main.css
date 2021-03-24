@@ -1,0 +1,177 @@
+#tab {
+    background-color: #292c30;
+    position: fixed;
+    top: -100px;
+    width: 100%;
+    transition: top 0.3s;
+}
+#tab a {
+    float: left;
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+#tab a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-gap: 10px;
+    font-size: 20pt;
+}
+
+#header {
+    font-weight: bold;
+    grid-column: 1 / span 2;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 10px;
+}
+
+#main11 {
+    padding: 3%;
+    grid-column: 1 / span 1;
+}
+
+#main12 {
+    grid-column: 2 / span 1;
+    font-size: 20pt;
+}
+
+div {
+    position: static;
+    text-align: center;
+}
+
+#Recipe {
+    width: 50%;
+    border: 5px dotted rgb(52, 203, 253);
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#fourstep {
+    height: 10%;
+    width: 20%;
+    border: 5px dotted rgb(52, 203, 253);
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+}
+
+.div_groub {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-size: 20pt;
+    background-color: rgb(233, 178, 190);
+    font-family: Garamond, "Times New Roman", serif;
+}
+
+p {
+    background-color: rgb(209, 160, 35);
+    font-weight: bold;
+    margin-left: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+        font-size: 20pt;
+    }
+    #header {
+        font-weight: bold;
+        grid-column: 1 / span 2;
+    }
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #main11 {
+        padding: 3%;
+        grid-column: 1 / span 1;
+    }
+    #main12 {
+        grid-column: 2 / span 1;
+        font-size: 20pt;
+    }
+    #Recipe {
+        width: 300px;
+        border: 5px dotted rgb(52, 203, 253);
+        border-radius: 50px;
+        vertical-align: middle;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #fourstep {
+        width: 300px;
+        border: 5px dotted rgb(52, 203, 253);
+        border-radius: 50px;
+        vertical-align: middle;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    @media only screen and (max-width: 500px) {
+        .grid-container {
+            display: grid;
+            grid-template-columns: 100%;
+            grid-gap: 10px;
+            font-size: 20pt;
+        }
+        #header {
+            font-weight: bold;
+            grid-column: 1 / span 1;
+        }
+        .grid-container2 {
+            display: grid;
+            grid-template-columns: 100%;
+        }
+        #main11 {
+            padding: 3%;
+            grid-column: 1 / span 1;
+        }
+        #main12 {
+            grid-column: 1 / span 1;
+            font-size: 20pt;
+        }
+        #Recipe {
+            width: 300px;
+            border: 5px dotted rgb(52, 203, 253);
+            border-radius: 50px;
+            vertical-align: middle;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        #fourstep {
+            width: 300px;
+            border: 5px dotted rgb(52, 203, 253);
+            border-radius: 50px;
+            vertical-align: middle;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+    }

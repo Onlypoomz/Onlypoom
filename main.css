@@ -1,0 +1,743 @@
+/* css หลัก */
+
+#tab {
+    background-color: #292c30;
+    position: fixed;
+    top: -100px;
+    width: 100%;
+    transition: top 0.3s;
+}
+
+#tab p {
+    float: right;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #eeb20c;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+#tab a {
+    float: left;
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#tab a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+body {
+    background-color: #373B40;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 80px;
+    color: #0b6bda;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    color: #eeb20c;
+    font-size: 40px;
+}
+
+h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: #eeb20c;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #F2F2F2;
+}
+
+.underline {
+    background-color: #F2F2F2;
+    width: 80%;
+    height: 5px;
+    margin: 25px auto;
+}
+
+
+/* ย่อหน้าแรก */
+
+.topic1 {
+    background-image: url('./pic/BG.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+/* https://www.chickensmoothie.com/Forum/viewtopic.php?f=64&t=3601920 ไฟล์ภาพ gif*/
+
+
+/* https://jsfiddle.net/Sk8erPeter/d83Kw/ ภาพพื้นหลังเป็น gif*/
+
+#Me {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 750px;
+}
+
+.header1 {
+    grid-column: 2 / span 1;
+    margin-top: 300px;
+}
+
+.name-header {
+    grid-column: 1 / span 1;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+.name-header p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: #eeb20c;
+}
+
+#header-topic {
+    margin-top: 8%;
+    text-align: center;
+}
+
+
+/* ย่อหน้าสอง */
+
+#pictureskill-mini {
+    width: 300px;
+    height: 300px;
+}
+
+.header2 h3 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.My-skill {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+
+.skill1 {
+    grid-column: 1 / span 1;
+    margin-top: 2%;
+}
+
+.skill2 {
+    grid-column: 2 / span 1;
+    margin-top: 2%;
+}
+
+.skill3 {
+    grid-column: 3 / span 1;
+    margin-top: 2%;
+}
+
+.skill4 {
+    grid-column: 4 / span 1;
+    margin-top: 2%;
+}
+
+
+/* ย่อหน้าสาม */
+
+#pictureAttention-mini1 {
+    width: 600px;
+    height: 400px;
+}
+
+#pictureAttention-mini2 {
+    width: 600px;
+    height: 400px;
+}
+
+#pictureAttention-mini3 {
+    width: 350px;
+    height: auto;
+}
+
+.header3 h3 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.My-Attention {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.Attention1 {
+    grid-column: 1 / span 1;
+    margin-top: 2%;
+}
+
+.Attention2 {
+    grid-column: 2 / span 1;
+    margin-top: 2%;
+}
+
+.Attention3 {
+    grid-column: 3 / span 1;
+    margin-top: 2%;
+}
+
+
+/* ย่อหน้าสี่ */
+
+.header4 h3 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.My-work1 {
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.Work1 {
+    grid-column: 1 / span 1;
+}
+
+.Work2 {
+    grid-column: 2 / span 1;
+}
+
+.Work3 {
+    grid-column: 3 / span 1;
+}
+
+.My-work2 {
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto;
+}
+
+.Work4 {
+    grid-column: 1 / span 1;
+}
+
+.Work5 {
+    grid-column: 2 / span 1;
+}
+
+#picture-mini {
+    width: 600px;
+    height: 350px;
+}
+
+a {
+    color: #e63342 !important;
+}
+
+#Work1:hover {
+    color: rgb(0, 0, 0) !important;
+    background: #eeb20cd8;
+    cursor: pointer;
+}
+
+#Work2:hover {
+    color: rgb(0, 0, 0) !important;
+    background: #eeb20cd8;
+    cursor: pointer;
+}
+
+#Work3:hover {
+    color: rgb(0, 0, 0) !important;
+    background: #eeb20cd8;
+    cursor: pointer;
+}
+
+#Work4:hover {
+    color: rgb(0, 0, 0) !important;
+    background: #eeb20cd8;
+    cursor: pointer;
+}
+
+#Work5:hover {
+    color: rgb(0, 0, 0) !important;
+    background: #eeb20cd8;
+    cursor: pointer;
+}
+
+
+/* ย่อหน้าห้า */
+
+.assignment-and-contact {
+    background-color: #292c30;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.header5 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    grid-column: 1 / span 1;
+}
+
+#FB:hover {
+    color: rgb(0, 0, 0) !important;
+    background: #eeb20cd8;
+    cursor: pointer;
+}
+
+#IG:hover {
+    color: rgb(0, 0, 0) !important;
+    background: #eeb20cd8;
+    cursor: pointer;
+}
+
+.ref p {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.767)
+}
+
+
+/* ย่อหน้าหก */
+
+.header6 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-right: 10%;
+    grid-column: 2 / span 1;
+}
+
+.assignment-and-contact .header6 p {
+    color: #e63342 !important;
+}
+
+#assignment1:hover {
+    color: rgb(0, 0, 0) !important;
+    background: #eeb20cd8;
+    cursor: pointer;
+}
+
+#assignment2:hover {
+    color: rgb(0, 0, 0) !important;
+    background: #eeb20cd8;
+    cursor: pointer;
+}
+
+#assignment3:hover {
+    color: rgb(0, 0, 0) !important;
+    background: #eeb20cd8;
+    cursor: pointer;
+}
+
+#assignment4:hover {
+    color: rgb(0, 0, 0) !important;
+    background: #eeb20cd8;
+    cursor: pointer;
+}
+
+#assignment5:hover {
+    color: rgb(0, 0, 0) !important;
+    background: #eeb20cd8;
+    cursor: pointer;
+}
+
+
+/* หน้า Mywork */
+
+.My-workpage {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 40% auto;
+}
+
+.My-workpage h4 {
+    color: #e63342;
+}
+
+.pic1 {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    grid-column: 1 / span 1;
+}
+
+.text1 {
+    margin-top: 150px;
+    margin-right: 50px;
+    grid-column: 2 / span 1;
+}
+
+.pic2 {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    grid-column: 1 / span 1;
+}
+
+.text2 {
+    margin-top: 150px;
+    margin-right: 50px;
+    grid-column: 2 / span 1;
+}
+
+.pic3 {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    grid-column: 1 / span 1;
+    width: 30%;
+}
+
+.text3 {
+    margin-top: 150px;
+    margin-right: 50px;
+    grid-column: 2 / span 1;
+}
+
+#picture-game {
+    width: 600px;
+    height: 750px;
+}
+
+.pic4 {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    grid-column: 1 / span 1;
+    width: 30%;
+}
+
+.text4 {
+    margin-top: 150px;
+    margin-right: 50px;
+    grid-column: 2 / span 1;
+}
+
+.pic5 {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    grid-column: 1 / span 1;
+    width: 30%;
+}
+
+.Grouppic-animation {
+    margin-left: 20%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100%;
+}
+
+#picture-anima1 {
+    width: 300px;
+    height: 150px;
+    grid-column: 1 / span 1;
+}
+
+#picture-anima2 {
+    width: 300px;
+    height: 150px;
+    margin-left: 100%;
+    grid-column: 1 / span 1;
+}
+
+#picture-anima3 {
+    width: 300px;
+    height: 150px;
+    grid-column: 1 / span 1;
+}
+
+#picture-anima4 {
+    width: 300px;
+    height: 150px;
+    margin-left: 100%;
+    grid-column: 1 / span 1;
+}
+
+.text5 {
+    margin-top: 150px;
+    margin-right: 50px;
+    grid-column: 2 / span 1;
+}
+
+@media only screen and (max-width:1660px) {
+    .My-workpage {
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .pic1 {
+        margin-left: 0%;
+        margin-top: 2%;
+        margin-bottom: 0%;
+        grid-column: 1 / span 1;
+    }
+    .text1 {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 5%;
+        grid-column: 1 / span 1;
+    }
+    .pic2 {
+        margin-left: 0%;
+        margin-top: 2%;
+        margin-bottom: 0%;
+        grid-column: 1 / span 1;
+    }
+    .text2 {
+        margin-top: 0px;
+        margin-right: 0px;
+        grid-column: 1 / span 1;
+    }
+    .pic3 {
+        margin-left: 0%;
+        margin-top: 2%;
+        margin-bottom: 0%;
+        grid-column: 1 / span 1;
+        transform: translate(100%);
+    }
+    .text3 {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 5%;
+        grid-column: 1 / span 1;
+    }
+    .pic4 {
+        margin-left: 0%;
+        margin-top: 2%;
+        margin-bottom: 0%;
+        grid-column: 1 / span 1;
+        transform: translate(100%);
+    }
+    .text4 {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 5%;
+        grid-column: 1 / span 1;
+    }
+    .pic5 {
+        margin-left: 0%;
+        margin-top: 2%;
+        margin-bottom: 0%;
+        grid-column: 1 / span 1;
+        transform: translate(100%);
+    }
+    .Grouppic-animation {
+        margin-left: 0%;
+        display: grid;
+        grid-template-columns: auto auto;
+        transform: translate(20%);
+    }
+    #picture-anima1 {
+        width: 100%;
+        height: auto;
+        grid-column: 1 / span 1;
+    }
+    #picture-anima2 {
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        grid-column: 2 / span 1;
+    }
+    #picture-anima3 {
+        width: 100%;
+        height: auto;
+        grid-column: 1 / span 1;
+    }
+    #picture-anima4 {
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        grid-column: 2 / span 1;
+    }
+    .text5 {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 5%;
+        grid-column: 1 / span 1;
+    }
+    /* #picture-mini {
+        width: 60%;
+        height: 40%;
+    } */
+}
+
+@media only screen and (max-width:1900px) {
+    .topic1 {
+        background-color: #292c30;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #Me {
+        margin-top: 0%;
+        width: 70%;
+        transform: translate(22%);
+    }
+    .name-header {
+        grid-column: 1 / span 1;
+        margin-top: 0%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 0%;
+    }
+    .name-header p {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 70px;
+        color: #eeb20c;
+    }
+    .header1 {
+        grid-column: 1 / span 1;
+        margin-top: 0%;
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width:1850px) {
+    .My-work1 {
+        text-align: center;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto auto;
+    }
+    .Work1 {
+        grid-column: 1 / span 1;
+    }
+    .Work2 {
+        grid-column: 2 / span 1;
+        margin-right: 5%;
+    }
+    .Work3 {
+        grid-column: 1 / span 1;
+    }
+    .My-work2 {
+        text-align: center;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto auto;
+    }
+    .Work4 {
+        grid-column: 1 / span 1;
+    }
+    .Work5 {
+        grid-column: 2 / span 1;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width:1650px) {
+    .My-Attention {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .Attention1 {
+        grid-column: 1 / span 1;
+        margin-top: 2%;
+    }
+    .Attention2 {
+        grid-column: 1 / span 1;
+        margin-top: 2%;
+    }
+    .Attention3 {
+        grid-column: 1 / span 1;
+        margin-top: 2%;
+    }
+    .assignment-and-contact {
+        background-color: #292c30;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .header5 {
+        margin-top: 8%;
+        margin-bottom: 0%;
+        margin-left: 15%;
+        grid-column: 1 / span 1;
+    }
+    .header6 {
+        margin-top: 8%;
+        margin-bottom: 5%;
+        margin-left: 15%;
+        margin-right: 0%;
+        grid-column: 1 / span 1;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    .My-skill {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .skill1 {
+        grid-column: 1 / span 1;
+        margin-top: 2%;
+    }
+    .skill2 {
+        grid-column: 1 / span 1;
+        margin-top: 2%;
+    }
+    .skill3 {
+        grid-column: 1 / span 1;
+        margin-top: 2%;
+    }
+    .skill4 {
+        grid-column: 1 / span 1;
+        margin-top: 2%;
+    }
+    .header4 h3 {
+        margin-top: 5%;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    .My-work1 {
+        text-align: center;
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: auto;
+    }
+    .Work1 {
+        grid-column: 1 / span 1;
+    }
+    .Work2 {
+        grid-column: 1 / span 1;
+        margin-right: 0%
+    }
+    .Work3 {
+        grid-column: 1 / span 1;
+    }
+    .My-work2 {
+        text-align: center;
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: auto;
+    }
+    .Work4 {
+        grid-column: 1 / span 1;
+    }
+    .Work5 {
+        grid-column: 1 / span 1;
+        margin-right: 0%
+    }
+}
